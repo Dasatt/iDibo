@@ -1,13 +1,6 @@
 __author__ = 'satope'
-"""This is the task: Now let's apply the concepts from the previous section to a real world example.
 
-You've finished eating at a restaurant, and received this bill:
-
-Cost of meal: $44.50
-Restaurant tax: 6.75%
-Tip: 15%
-You'll apply the tip to the overall cost of the meal (including tax)."""
-
+"""The program is suppose  to find the overall cost of a meal including tax and tip"""
 
 meal = 44.50
 tax = 0.0675

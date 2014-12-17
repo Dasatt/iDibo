@@ -1,8 +1,14 @@
 __author__ = 'satope'
-"""This program helps you to plan a vacation trip"""
-
+"""This program helps you to plan a vacation trip
+I would also be testing doctest in some of the functions here"""
 
 def hotel_cost(nights):
+    """ This function returns the hotels cost. For instance
+    >>> hotel_cost(1)
+    140
+    >>> hotel_cost(3)
+    420
+    """
     hotels_cost = 140*nights
     return hotels_cost
 
@@ -29,3 +35,6 @@ def trip_cost(city, days, spending_money):
 
 print trip_cost("Los Angeles", 4, 600)
 
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
