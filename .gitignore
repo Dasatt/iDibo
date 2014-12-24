@@ -104,3 +104,10 @@ docs/_build/
 
 # PyBuilder
 target/
+
+cache/**
+databases/**
+errors/**
+sessions/**
+*˜
+*.pyc
